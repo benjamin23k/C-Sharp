@@ -28,5 +28,6 @@ Console.WriteLine(b);
 
 
 DateTime now = DateTime.Now;
-        Console.WriteLine("Current local date/time: " + now);
+Console.WriteLine("Current local date/time: " + now);
+
 
