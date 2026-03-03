@@ -6,7 +6,7 @@ namespace Contacts.Domain.Entities
 {
     public class Contact
     {
-        // static in‑memory repository
+        
         public static List<Contact> All { get; } = new();
 
         public static int NextId => All.Count == 0 ? 1 : All.Max(c => c.Id) + 1;
@@ -48,6 +48,7 @@ namespace Contacts.Domain.Entities
 
 
     
+
 
 
 
