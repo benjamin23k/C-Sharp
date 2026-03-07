@@ -25,7 +25,7 @@ namespace Letters.validations
                 if (input.Length < min || input.Length > max)
                 {
                     Console.WriteLine($"Between {min} and {max} characters");
-                    continue;  // Faltaba esto
+                    continue;  
                 }
 
                 if (input.All(c => char.IsLetter(c) || c == ' '))
@@ -35,4 +35,5 @@ namespace Letters.validations
             }
         }
     }
+
 }
