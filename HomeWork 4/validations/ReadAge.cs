@@ -13,7 +13,7 @@ namespace age.validations
             {
                 Console.Write(message);
 
-                if (int.TryParse(Console.ReadLine(), out int age) && age >= 1 && age <= 119)
+                if (int.TryParse(Console.ReadLine(), out int age) && age >= 10 && age <= 119)
                     return age;
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(" Invalid age.");
@@ -21,4 +21,5 @@ namespace age.validations
             }
         }
     }
+
 }
