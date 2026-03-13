@@ -4,7 +4,6 @@ using Database;
 
 namespace Search.Patients
 {
-    
     public static class SearchPatient
     {
         public static void Search(Patient patient)
