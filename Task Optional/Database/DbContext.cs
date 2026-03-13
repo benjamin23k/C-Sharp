@@ -8,7 +8,7 @@ namespace Database
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-             string ConnectionString = "Server=DESKTOP-P2LDKRQ\\SQLEXPRESS;Database=DbPatient;Trusted_Connection=True;TrustServerCertificate=True;";
+             string ConnectionString = "Server=localhost\\SQLEXPRESS;Database=DbPatient;Trusted_Connection=True;TrustServerCertificate=True;";
             optionsBuilder.UseSqlServer(ConnectionString);
         }
 
